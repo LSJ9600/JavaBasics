@@ -1,0 +1,47 @@
+5 Scenarios for Amazon website
+
+Scenario 1
+
+- Verifying the functionality of shopping cart 
+
+Given user is able to add the product to the shopping cart
+When user clicks on add to cart
+Then user should be able to see the product in their shopping cart
+
+Scenario 2
+
+- Verifying the functionality of the search bar
+
+Given user is able search for what they need
+When user hovers on the search bar 
+And clicks on the search bar
+And types what they need
+And clicks the search button
+Then user should find what they searched for
+
+Scenario 3 
+
+- Verifying the functionality of Return the order
+
+Given user is able to return the product
+When user clicks on Return & order button 
+And then clicks on Return or replace item for the product they want to return
+Then user should be able to return the product
+
+Scenario 4 
+
+- Verifying the functionality of log out
+
+Given user is able logout
+When user hovers mouse over Account & List the drop down should appear
+And clicks on the logout button
+Then user should be able to logout successfully.
+
+Scenario 5
+
+- Verifying the functionality of browsing the history.
+
+Given user is able browse the history 
+When user hovers the mouse over Account & List the drop down should appear
+And clicks on browse history
+Then user should be able to browse the history
