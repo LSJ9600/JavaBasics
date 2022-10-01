@@ -9,7 +9,7 @@ public class Task5 {
 		
 		String a="Java";
 		
-		String wordReverse= " ";
+		String wordReverse=" ";
 		
 		for (int i=a.length()-1; i>=0; i--) {
 			
